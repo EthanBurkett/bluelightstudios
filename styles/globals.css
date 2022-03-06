@@ -3,15 +3,13 @@
 @tailwind utilities;
 
 @layer components {
-}
-
-body {
-  @apply bg-[#101017] overflow-hidden text-zinc-200;
-  background-image: url("../public/squares.png");
-  background-size: 1000px 560px;
-  position: absolute;
-  z-index: -9999;
-}
+  body {
+    @apply bg-[#101017] overflow-hidden text-zinc-200;
+    background-image: url("../public/squares.png");
+    background-size: 1000px 560px;
+    position: absolute;
+    z-index: -9999;
+  }
 .main {
   @apply w-[100vw] h-[100vh] flex justify-center absolute m-16 flex-col;
   font-family: "Arial Black";
@@ -35,3 +33,6 @@ footer > p,
 li {
   font-family: "Roboto";
 }
+}
+
+

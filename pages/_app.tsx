@@ -9,6 +9,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   const theme = useTheme();
   return (
     <>
+      <meta content="BlueLight Studios is a team of highly talented developers creating beatuful apps that users can enjoy" property="og:description" />
+      <meta content="BlueLight Studios" property="og:site_name" />
+      <meta content='/logo-circle.png' property='og:image' />
+      <meta name="theme-color" content="#2b5dff" />
+      <meta property="og:title" content="BlueLight Studios" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>BlueLight Studios</title>
       <Particles

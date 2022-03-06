@@ -12,7 +12,7 @@ export default function Button({ ...props }: ButtonProps): JSX.Element {
       onClick={props.onClick}
       className="flex align-center justify-center cursor-pointer w-40 h-auto font-normal text-center mt-5 p-2 bg-transparent border-2 border-zinc-200 transition-all hover:text-zinc-900 hover:bg-zinc-200"
     >
-      <div className="absolute text-xl pr-2 -ml-20 self-center">
+      <div className="absolute text-xl pr-2 -ml-20 self-center btn-icon">
         {props.icon}
       </div>
       {props.icon && (

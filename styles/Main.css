@@ -12,6 +12,11 @@ body {
 .nav-item {
   list-style-type: none;
 }
+@media (max-width: 1200px) {
+  .navbar {
+    right: 0vw !important;
+  }
+}
 
 h1 {
   @apply text-xl lg:text-7xl self-start uppercase md:text-4xl sm:text-2xl;
