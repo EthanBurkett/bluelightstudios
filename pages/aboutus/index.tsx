@@ -11,8 +11,8 @@ const AboutUs: NextPage = () => {
       <h2>
         BlueLight Studios is a team of high-skilled developers that create
         beautiful applications in terms of advanced discord bots, stock and
-        crypto trading bots, website applications, and we'll even host it for
-        you!
+        crypto trading bots, website applications, and we&lsquo;ll even host it
+        for you!
         <p className="text-lg mt-2 sm:text-xl md:text-xl lg:text-2xl text-zinc-300">
           Interested in learning more about us? Click the link below to join our
           discord server
