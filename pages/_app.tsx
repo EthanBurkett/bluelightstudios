@@ -3,11 +3,16 @@ import "../production/Main.css";
 import type { AppProps } from "next/app";
 import Particles from "react-tsparticles";
 import { useTheme } from "@material-ui/core";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const theme = useTheme();
   return (
     <>
+      <Head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <title>BlueLight Studios</title>
       <Particles
         style={{
