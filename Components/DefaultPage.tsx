@@ -27,7 +27,7 @@ const DefaultPage: NextPage = ({ children }: ScriptProps) => {
         {children}
         <Navbar>
           <NavItem text="Home" location="/" />
-          <NavItem text="About Us" location="/about-us" />
+          <NavItem text="About Us" location="/aboutus" />
           <NavItem text="Projects" location="/projects" />
           <NavItem text="Discord" location="https://discord.gg/y2fnkCSmuY" />
         </Navbar>
