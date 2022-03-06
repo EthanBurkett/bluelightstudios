@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/Main.css";
 import type { AppProps } from "next/app";
 import Particles from "react-tsparticles";
 import { useTheme } from "@material-ui/core";
