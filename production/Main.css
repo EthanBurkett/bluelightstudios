@@ -1,0 +1,98 @@
+body {
+  overflow: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 16 23 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(228 228 231 / var(--tw-text-opacity));
+  background-image: url("../public/squares.png");
+  background-size: 1000px 560px;
+  position: absolute;
+  z-index: -9999;
+}
+.main {
+  position: absolute;
+  margin: 4rem;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Arial Black";
+}
+.nav-item {
+  list-style-type: none;
+}
+
+h1 {
+  align-self: flex-start;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+h2 {
+  margin: 0px;
+  width: 12rem;
+  max-width: 56rem;
+  align-self: flex-start;
+  padding-top: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 200;
+}
+@media (min-width: 640px) {
+  h2 {
+    width: 14rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 768px) {
+  h2 {
+    width: 18rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    width: auto;
+  }
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+li {
+  list-style-type: none;
+}
+h2,
+button,
+footer > p,
+li {
+  font-family: "Roboto";
+}

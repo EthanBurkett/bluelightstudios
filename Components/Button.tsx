@@ -6,7 +6,7 @@ type ButtonProps = ScriptProps & {
   icon?: any;
 };
 
-export default function ({ ...props }: ButtonProps): JSX.Element {
+export default function Button({ ...props }: ButtonProps): JSX.Element {
   return (
     <div
       onClick={props.onClick}
