@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const theme = useTheme();
   return (
     <>
+      <title>BlueLight Studios</title>
       <Particles
         style={{
           position: "fixed",
