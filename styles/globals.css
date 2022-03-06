@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-[#101017] overflow-hidden text-zinc-200;
+    background-image: url("../public/squares.png");
+    background-size: 1000px 560px;
+    position: absolute;
+    z-index: -9999;
+  }
+  .main {
+    @apply w-[100vw] h-[100vh] flex justify-center absolute m-16 flex-col;
+    font-family: "Arial Black";
+  }
+  .nav-item {
+    list-style-type: none;
+  }
+
+  h1 {
+    @apply text-xl lg:text-7xl self-start uppercase md:text-4xl sm:text-2xl;
+  }
+  h2 {
+    @apply text-lg w-48 lg:text-4xl self-start m-0 pt-5 font-extralight md:w-72 md:text-2xl sm:text-xl sm:w-56 lg:w-auto max-w-4xl;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  h2,
+  button,
+  footer > p,
+  li {
+    font-family: "Roboto";
+  }
+}
